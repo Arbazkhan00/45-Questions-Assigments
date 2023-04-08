@@ -1,7 +1,12 @@
-console.log("Hi,my name is arbaz khan:");
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var promptSync = require("prompt-sync");
+var prompt = promptSync();
+var names = prompt("Enter your name ?");
+console.log(names);
 setTimeout(function () {
-    console.log("Im live in murree");
-}, 2000);
-setTimeout(function () {
-    console.log("My Father name is ikram ullah");
-}, 500);
+    var father = prompt("enter your father name:");
+    console.log(father);
+}, 4000);
+var mother = prompt("enter your mother name:");
+console.log(mother);

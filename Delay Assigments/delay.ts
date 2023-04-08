@@ -1,8 +1,11 @@
-console.log("Hi,my name is arbaz khan:");
+import * as promptSync from 'prompt-sync';
+const prompt=promptSync();
+let names= prompt("Enter your name ?");
+console.log(names);
 setTimeout(()=>{
-   console.log("Im live in murree")
-},2000);
-setTimeout(() => {
-    console.log("My Father name is ikram ullah");
+    let father=prompt("enter your father name:");
+    console.log(father);
     
-}, 500);
+},4000)
+let mother=prompt("enter your mother name:");
+console.log(mother);
